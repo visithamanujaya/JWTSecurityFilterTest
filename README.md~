@@ -39,7 +39,7 @@ Step – 4
 E.g
 
 A security constraint defined in web.xml
-
+'''<xml>
  <security-constraint>
         <display-name>SecurityConstraint</display-name>
         <web-resource-collection>
@@ -54,7 +54,7 @@ A security constraint defined in web.xml
             <transport-guarantee>NONE</transport-guarantee>
         </user-data-constraint>
  </security-constraint>
-
+'''
 
 How the above should be defined in CustomData.xml, here you have to consider only about url pattern and the user role.
 
