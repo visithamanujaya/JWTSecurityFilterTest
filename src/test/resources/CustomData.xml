@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<customData id="1">
+
+
+    <securityData>
+        <authParam>
+            <roleName>admin</roleName>
+            <roleName>admin1</roleName>
+            <urlPattern>/greeting</urlPattern>
+        </authParam>
+        <authParam>
+            <roleName>super</roleName>
+            <urlPattern>/secured</urlPattern>
+        </authParam>
+    </securityData>
+
+
+</customData>
