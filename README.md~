@@ -39,22 +39,23 @@ Step – 4
 E.g
 
 A security constraint defined in web.xml
-'''<xml>
- <security-constraint>
-        <display-name>SecurityConstraint</display-name>
-        <web-resource-collection>
-            <web-resource-name>WRCollection</web-resource-name>
-            <url-pattern>/marketing.jsp</url-pattern>
-        </web-resource-collection>
-        <auth-constraint>
-            <role-name>admin</role-name>
-            <role-name>MarketingOfficer</role-name>
-        </auth-constraint>
-        <user-data-constraint>
-            <transport-guarantee>NONE</transport-guarantee>
-        </user-data-constraint>
- </security-constraint>
-'''
+```<xml>
+```
+
+	 <security-constraint>
+		<display-name>SecurityConstraint</display-name>
+		<web-resource-collection>
+		    <web-resource-name>WRCollection</web-resource-name>
+		    <url-pattern>/marketing.jsp</url-pattern>
+		</web-resource-collection>
+		<auth-constraint>
+		    <role-name>admin</role-name>
+		    <role-name>MarketingOfficer</role-name>
+		</auth-constraint>
+		<user-data-constraint>
+		    <transport-guarantee>NONE</transport-guarantee>
+		</user-data-constraint>
+	 </security-constraint>
 
 How the above should be defined in CustomData.xml, here you have to consider only about url pattern and the user role.
 
